@@ -292,13 +292,10 @@ body {
 
 .projects {
   margin-left: -15px;
-  /* align section w/ heading above */
 }
 
 .projects a {
-  /* 30px is the gutter size in magic grid */
   width: calc(49% - 30px);
-  /* 49% avoids a weird single column on some wide screens */
   display: flex;
   text-decoration: none;
 }
@@ -463,7 +460,6 @@ body {
 
   .projects {
     margin-left: 0;
-    /* remove neg margin to align w/ header */
   }
 
   .projects a {
@@ -554,13 +550,13 @@ body {
       rgba(10, 10, 10, 0.3),
       rgb(10, 10, 10, 1)
     ),
-    url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80");
+    url("assets/shahadat-rahman-gnyA8vd3Otc-unsplash.jpg");
   --background-background: linear-gradient(
       0deg,
       rgba(10, 10, 10, 1),
       rgba(10, 10, 10, 0.6)
     ),
-    url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80") center center fixed;
+    url("assets/shahadat-rahman-gnyA8vd3Otc-unsplash.jpg") center center fixed;
   --height: 50vh;
 }
 
@@ -591,6 +587,6 @@ body {
         rgba(10, 10, 10, 1),
         rgba(10, 10, 10, 0)
       ),
-      url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80") !important;
+      url("assets/shahadat-rahman-gnyA8vd3Otc-unsplash.jpg") !important;
   }
 }
